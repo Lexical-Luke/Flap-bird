@@ -21,6 +21,16 @@
 		A30D944D196EC82D001652BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30D942F196EC82D001652BE /* UIKit.framework */; };
 		A30D9455196EC82D001652BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A30D9453196EC82D001652BE /* InfoPlist.strings */; };
 		A30D9457196EC82D001652BE /* Flap_birdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A30D9456196EC82D001652BE /* Flap_birdTests.m */; };
+		A30D946E196ECC70001652BE /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = A30D946D196ECC70001652BE /* Game.m */; };
+		A30D947A196EF07A001652BE /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = A30D9479196EF07A001652BE /* background.png */; };
+		A3D438A5197001C000AA2E78 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = A3D4389E197001C000AA2E78 /* Background.png */; };
+		A3D438A6197001C000AA2E78 /* bird1.png in Resources */ = {isa = PBXBuildFile; fileRef = A3D4389F197001C000AA2E78 /* bird1.png */; };
+		A3D438A7197001C000AA2E78 /* bird2.png in Resources */ = {isa = PBXBuildFile; fileRef = A3D438A0197001C000AA2E78 /* bird2.png */; };
+		A3D438A8197001C000AA2E78 /* bird3.png in Resources */ = {isa = PBXBuildFile; fileRef = A3D438A1197001C000AA2E78 /* bird3.png */; };
+		A3D438A9197001C000AA2E78 /* Ground.png in Resources */ = {isa = PBXBuildFile; fileRef = A3D438A2197001C000AA2E78 /* Ground.png */; };
+		A3D438AA197001C000AA2E78 /* PipeBottom.png in Resources */ = {isa = PBXBuildFile; fileRef = A3D438A3197001C000AA2E78 /* PipeBottom.png */; };
+		A3D438AB197001C000AA2E78 /* PipeTop.png in Resources */ = {isa = PBXBuildFile; fileRef = A3D438A4197001C000AA2E78 /* PipeTop.png */; };
+		A3D438AD1970027D00AA2E78 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = A3D438AC1970027D00AA2E78 /* green.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +63,17 @@
 		A30D9452196EC82D001652BE /* Flap birdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Flap birdTests-Info.plist"; sourceTree = "<group>"; };
 		A30D9454196EC82D001652BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A30D9456196EC82D001652BE /* Flap_birdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Flap_birdTests.m; sourceTree = "<group>"; };
+		A30D946C196ECC70001652BE /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = ../Game.h; sourceTree = "<group>"; };
+		A30D946D196ECC70001652BE /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Game.m; path = ../Game.m; sourceTree = "<group>"; };
+		A30D9479196EF07A001652BE /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		A3D4389E197001C000AA2E78 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		A3D4389F197001C000AA2E78 /* bird1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird1.png; sourceTree = "<group>"; };
+		A3D438A0197001C000AA2E78 /* bird2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird2.png; sourceTree = "<group>"; };
+		A3D438A1197001C000AA2E78 /* bird3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird3.png; sourceTree = "<group>"; };
+		A3D438A2197001C000AA2E78 /* Ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ground.png; sourceTree = "<group>"; };
+		A3D438A3197001C000AA2E78 /* PipeBottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PipeBottom.png; sourceTree = "<group>"; };
+		A3D438A4197001C000AA2E78 /* PipeTop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PipeTop.png; sourceTree = "<group>"; };
+		A3D438AC1970027D00AA2E78 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +138,8 @@
 				A30D943D196EC82D001652BE /* Main.storyboard */,
 				A30D9440196EC82D001652BE /* ViewController.h */,
 				A30D9441196EC82D001652BE /* ViewController.m */,
+				A30D946C196ECC70001652BE /* Game.h */,
+				A30D946D196ECC70001652BE /* Game.m */,
 				A30D9443196EC82D001652BE /* Images.xcassets */,
 				A30D9432196EC82D001652BE /* Supporting Files */,
 			);
@@ -126,6 +149,15 @@
 		A30D9432196EC82D001652BE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A3D438AC1970027D00AA2E78 /* green.png */,
+				A3D4389E197001C000AA2E78 /* Background.png */,
+				A3D4389F197001C000AA2E78 /* bird1.png */,
+				A3D438A0197001C000AA2E78 /* bird2.png */,
+				A3D438A1197001C000AA2E78 /* bird3.png */,
+				A3D438A2197001C000AA2E78 /* Ground.png */,
+				A3D438A3197001C000AA2E78 /* PipeBottom.png */,
+				A3D438A4197001C000AA2E78 /* PipeTop.png */,
+				A30D9479196EF07A001652BE /* background.png */,
 				A30D9433196EC82D001652BE /* Flap bird-Info.plist */,
 				A30D9434196EC82D001652BE /* InfoPlist.strings */,
 				A30D9437196EC82D001652BE /* main.m */,
@@ -228,7 +260,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3D438A6197001C000AA2E78 /* bird1.png in Resources */,
+				A3D438AA197001C000AA2E78 /* PipeBottom.png in Resources */,
+				A30D947A196EF07A001652BE /* background.png in Resources */,
 				A30D9444196EC82D001652BE /* Images.xcassets in Resources */,
+				A3D438A7197001C000AA2E78 /* bird2.png in Resources */,
+				A3D438A9197001C000AA2E78 /* Ground.png in Resources */,
+				A3D438A8197001C000AA2E78 /* bird3.png in Resources */,
+				A3D438A5197001C000AA2E78 /* Background.png in Resources */,
+				A3D438AB197001C000AA2E78 /* PipeTop.png in Resources */,
+				A3D438AD1970027D00AA2E78 /* green.png in Resources */,
 				A30D9436196EC82D001652BE /* InfoPlist.strings in Resources */,
 				A30D943F196EC82D001652BE /* Main.storyboard in Resources */,
 			);
@@ -252,6 +293,7 @@
 				A30D9442196EC82D001652BE /* ViewController.m in Sources */,
 				A30D943C196EC82D001652BE /* AppDelegate.m in Sources */,
 				A30D9438196EC82D001652BE /* main.m in Sources */,
+				A30D946E196ECC70001652BE /* Game.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +418,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Flap bird/Flap bird-Prefix.pch";
 				INFOPLIST_FILE = "Flap bird/Flap bird-Info.plist";
@@ -389,6 +432,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Flap bird/Flap bird-Prefix.pch";
 				INFOPLIST_FILE = "Flap bird/Flap bird-Info.plist";
@@ -456,6 +500,7 @@
 				A30D945C196EC82D001652BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A30D945D196EC82D001652BE /* Build configuration list for PBXNativeTarget "Flap birdTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +509,7 @@
 				A30D945F196EC82D001652BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
